@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo-principal{
+
+    width: 800px;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./imagens/bg-repeat.jpg');
+    gap: 60px;
+    /* background-image: linear-gradient(to bottom, #de6594 10%,#6282e5); */
+
+}
+
+.informacoes{
+
+    color: #ffffff;
+    width: 300px;
+    height: 111px;
+}
+
+.informacoes .titulo{
+
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+
+}
+
+ .texto{
+
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+
+.conteudo-principal .formulario{
+
+    width: 340px;
+    height: 378px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.input{
+
+    width: 298px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 9px 0 8px 11px;
+    font-size: 15px;
+    font-weight: 700;
+    color:#A8A8A8;
+    margin-top: 10px;
+    
+
+}
+
+.input:first-child{
+
+    margin-top: 0;
+
+}
+
+.formulario .texto{
+
+    color: #000000;
+    margin-bottom: 15px;
+
+}
+
+.input.mensagem{
+    height: 100px;
+}
+
+.enviar{
+
+    background-color: #3CCC87;
+    width: 298px;
+    height: 41px;
+    border: none;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.resposta-invalida{
+
+font-size: 8px;
+color: #F52E2E;
+font-weight: 400;
+transition: 0.3s ease-in-out;
+
+}
+
+.esconder{
+
+display: none;
+
+}
+
+.borda-vermelha{
+
+    border: 1px solid #F52E2E;
+    transition: 0.3s ease-in-out;
+
+}
+
+.borda-verde{
+
+
+    border: 1px solid #00C22B;
+    transition: 0.3s ease-in-out;
+
+
+}
